@@ -7,6 +7,7 @@ export default function sortFeatures(obj, args = []) {
     }
   }
 
+  
   arrayKeys = [...args, ...arrayKeys.sort()];
   const result = [];
   for (const item of arrayKeys) {
